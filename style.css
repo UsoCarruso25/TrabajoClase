@@ -1,0 +1,181 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e3f2fd, #f1f8e9);
+    color: #333;
+}
+
+/* Menú de navegación */
+.MenuCSS3 {
+    background: #007bff;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Asegurar que los botones estén bien centrados */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;  /* Centra los botones */
+    align-items: center;  /* Asegura que estén alineados verticalmente */
+    gap: 30px; /* Espacio entre los botones */
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    background: #0056b3;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.nav-links a:hover {
+    background: #4b5b6c;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Secciones */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    text-align: center;
+}
+
+h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Párrafos */
+p {
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e3f2fd;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    transition: background 0.3s;
+    justify-content: center;
+}
+
+ul li::before {
+    content: "✔";
+    color: #007bff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+ul li:hover {
+    background: #bbdefb;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Encabezado de la tabla */
+thead {
+    background: #007bff;
+    color: white;
+}
+
+thead th {
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Cuerpo de la tabla */
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+tbody td {
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Estilos para los enlaces dentro de la tabla */
+tbody td a {
+    color: #007bff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+tbody td a:hover {
+    color: #0056b3;
+}
+
+/* Estilos para imágenes dentro de la tabla */
+tbody td img {
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+tbody td img:hover {
+    transform: scale(1.1);
+}
